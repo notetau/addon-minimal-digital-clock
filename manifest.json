@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Minimal Digital Clock",
+  "version": "1.0",
+
+  "description": "Adds minimal digital clock in Toolbar",
+
+	"icons": {
+	 "48": "icon48.png"
+ 	},
+
+  "browser_action": {
+    "default_icon": "none.png",
+    "default_title": "digital clock"
+  },
+
+	"background": {
+	  "scripts": ["badge-clock.js"]
+	}
+}
