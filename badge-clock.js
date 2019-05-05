@@ -19,6 +19,7 @@
 		const hh = hour_value.toString().padStart(2, "0");
 
 		browser.browserAction.setBadgeText({text:hh + mm});
+		browser.browserAction.setTitle({title:date.toLocaleDateString()});
 	}
 	browser.browserAction.setBadgeBackgroundColor({color:BADGE_COLOR})
 
